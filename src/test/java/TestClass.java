@@ -7,8 +7,8 @@ public class TestClass extends Base {
         //given
         TestClassSecondLine tl = new TestClassSecondLine();
         //when
-        tl.zbiorczeZadanie(driver);
+        tl.addClothesToCart(driver);
         //then
-        tl.asercja(driver);
+        tl.checkAmountOfClothesAtCart(driver);
     }
 }
